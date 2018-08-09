@@ -1,0 +1,44 @@
+body{
+	text-align: center;
+	font-family: monospace;
+	font-size: 18px;
+}
+
+.pg-content{
+	background-color: #ebebfa;
+	position: fixed;
+	width: 500px;
+	height: 300px;
+	top: 200px;
+	left: 50%;
+	margin-left: -250px
+}
+
+.pg-login{
+	border-bottom: 1px solid #d1d1e0;
+	border-top: 1px solid #d1d1e0;
+}
+
+.pg-login .title{
+	border-bottom: 1px solid #d1d1e0;
+	height: 35px;
+	line-height: 35px;
+	margin-bottom: 25px;
+}
+
+.pg-login label{
+	text-align: left;
+}
+
+.pg-login form input{
+	padding: 3px;
+}
+
+.pg-login form .btn{
+	background-color: #33adff;
+	color: #ffffff;
+	margin: 20px;
+	border: 1px solid #d1d1e0;
+	padding: 4px 20px 4px 20px;
+	text-shadow: 1px 1px 0px #287ace;
+}
